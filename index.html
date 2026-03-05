@@ -9,55 +9,83 @@
 </head>
 <body>
 
-  <div class="container">
-    <h1 class="pixel-text">HAPPY 22ND BIRTHDAY!</h1>
-    <p id="instruction" class="subtitle">Make a wish & blow out all 22 candles!</p>
+ <div class="container">
+  <h1 class="pixel-text">HAPPY 22ND BIRTHDAY!</h1>
+  <p id="instruction" class="subtitle">Make a wish & blow out all 22 candles!</p>
+
+  <div class="cake-stage">
+    
+    <div id="birthday-letter" class="letter" onclick="openLetter()">
+      <div class="heart">❤</div>
+    </div>
+
+    <div class="candles-wrapper">
+      <div class="candle-container"><input type="checkbox" id="c1" class="candle-check"><label for="c1" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c2" class="candle-check"><label for="c2" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c3" class="candle-check"><label for="c3" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c4" class="candle-check"><label for="c4" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c5" class="candle-check"><label for="c5" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c6" class="candle-check"><label for="c6" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c7" class="candle-check"><label for="c7" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c8" class="candle-check"><label for="c8" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c9" class="candle-check"><label for="c9" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c10" class="candle-check"><label for="c10" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c11" class="candle-check"><label for="c11" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c12" class="candle-check"><label for="c12" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c13" class="candle-check"><label for="c13" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c14" class="candle-check"><label for="c14" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c15" class="candle-check"><label for="c15" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c16" class="candle-check"><label for="c16" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c17" class="candle-check"><label for="c17" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c18" class="candle-check"><label for="c18" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c19" class="candle-check"><label for="c19" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c20" class="candle-check"><label for="c20" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c21" class="candle-check"><label for="c21" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+      <div class="candle-container"><input type="checkbox" id="c22" class="candle-check"><label for="c22" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
+    </div>
 
     <div class="cake">
-      <div id="birthday-letter" class="letter" onclick="openLetter()">
-        <div class="envelope">
-          <div class="heart">❤</div>
-        </div>
-        <div id="message" class="message-content">
-          <p>Happy 22nd Birthday!</p>
-          <p>You did it! You blew them all out.</p>
-          <p>I am so proud of you and everything you've achieved. Here's to many more!</p>
-          <p>- Yours truly</p>
-        </div>
-      </div>
-
-      <div class="candles-wrapper">
-        <div class="candle-container"><input type="checkbox" id="c1" class="candle-check"><label for="c1" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c2" class="candle-check"><label for="c2" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c3" class="candle-check"><label for="c3" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c4" class="candle-check"><label for="c4" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c5" class="candle-check"><label for="c5" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c6" class="candle-check"><label for="c6" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c7" class="candle-check"><label for="c7" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c8" class="candle-check"><label for="c8" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c9" class="candle-check"><label for="c9" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c10" class="candle-check"><label for="c10" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c11" class="candle-check"><label for="c11" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c12" class="candle-check"><label for="c12" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c13" class="candle-check"><label for="c13" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c14" class="candle-check"><label for="c14" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c15" class="candle-check"><label for="c15" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c16" class="candle-check"><label for="c16" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c17" class="candle-check"><label for="c17" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c18" class="candle-check"><label for="c18" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c19" class="candle-check"><label for="c19" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c20" class="candle-check"><label for="c20" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c21" class="candle-check"><label for="c21" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-        <div class="candle-container"><input type="checkbox" id="c22" class="candle-check"><label for="c22" class="candle"><div class="flame"></div><div class="stick"></div></label></div>
-      </div>
-
       <div class="cake-layer top-layer"></div>
       <div class="cake-layer middle-layer"></div>
       <div class="cake-layer bottom-layer"></div>
     </div>
   </div>
 
-  <script>
+  <div id="message-overlay" class="overlay" onclick="closeLetter()">
+    <div class="message-content">
+      <h2>Happy 22nd Birthday!</h2>
+      <p>You did it! You blew them all out.</p>
+      <p>I am so proud of you and everything you've achieved. Here's to many more!</p>
+      <p style="margin-top:20px;">- Yours truly</p>
+      <p style="font-size:8px; color:#aaa; margin-top:20px;">(Click anywhere to close)</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  const checkboxes = document.querySelectorAll('.candle-check');
+  const letter = document.getElementById('birthday-letter');
+  const instruction = document.getElementById('instruction');
+  const overlay = document.getElementById('message-overlay');
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', () => {
+      const checkedCount = document.querySelectorAll('.candle-check:checked').length;
+      if (checkedCount === 22) {
+        letter.classList.add('pop-out');
+        instruction.innerText = "Click the letter!";
+      }
+    });
+  });
+
+  function openLetter() {
+    overlay.style.display = 'flex';
+  }
+
+  function closeLetter() {
+    overlay.style.display = 'none';
+  }
+</script>
     const checkboxes = document.querySelectorAll('.candle-check');
     const letter = document.getElementById('birthday-letter');
     const instruction = document.getElementById('instruction');
