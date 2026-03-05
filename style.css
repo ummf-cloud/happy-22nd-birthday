@@ -123,3 +123,65 @@ input[type="checkbox"]:checked + .candle .flame {
   opacity: 0;
   transform: scale(0) translateY(-20px);
 }
+
+/* --- LETTER STYLING --- */
+.letter {
+  position: absolute;
+  top: 20px;
+  width: 120px;
+  height: 80px;
+  background-color: #fff;
+  border: 4px solid #000;
+  z-index: -1; /* Behind the cake */
+  cursor: pointer;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Invisible until all candles are out */
+}
+
+.envelope {
+  text-align: center;
+}
+
+.heart {
+  color: #ff3b3b;
+  font-size: 20px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  to { transform: scale(1.2); }
+}
+
+/* ANIMATION: The Letter Pops Out */
+.letter.pop-out {
+  opacity: 1;
+  z-index: 20; /* Moves to the front */
+  transform: translateY(-120px) scale(1.5); /* Floats up and gets bigger */
+}
+
+/* MESSAGE CONTENT (Inside the letter) */
+.message-content {
+  display: none; /* Hidden until clicked */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border: 8px solid #ff9ee5;
+  box-shadow: 10px 10px 0px #000;
+  z-index: 100;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+/* When the letter is clicked/opened */
+.letter.open .message-content {
+  display: block;
+}
