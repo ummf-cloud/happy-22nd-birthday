@@ -390,7 +390,7 @@
 <body>
 
 <!-- music player container -->
-<div id="music-container" style="position:fixed;bottom:16px;right:16px;z-index:100;"></div>
+<div id="music-container" style="position:fixed;bottom:16px;right:16px;z-index:100;text-align:right;"></div>
 
 <!-- stars -->
 <div class="stars" id="stars"></div>
@@ -496,9 +496,9 @@
       <div style="font-family:'Press Start 2P',monospace;font-size:7px;
         color:var(--yellow);text-shadow:1px 1px 0 var(--purple);
         margin-bottom:6px;text-align:center;">🎵 đang phát...</div>
-      <iframe data-testid="embed-iframe" style="border-radius:12px"
+      <iframe data-testid="embed-iframe" style="border-radius:12px;display:block;"
         src="https://open.spotify.com/embed/track/7hSQZhitTMcUVTKw1Zjx42?utm_source=generator&autoplay=1"
-        width="260" height="80" frameborder="0"
+        width="300" height="152" frameborder="0" scrolling="no"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"></iframe>`;
   }
